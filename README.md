@@ -28,3 +28,6 @@ import {
 样例：[vue-mxgraph/src/views/Graph.js](vue-mxgraph/src/views/Graph.js)
 
 参考：[jgraph/mxgraph/issues/175/npm install](https://github.com/jgraph/mxgraph/issues/175)
+
+## Demo
+![demo](vue-mxgraph/src/assets/demo.png)
