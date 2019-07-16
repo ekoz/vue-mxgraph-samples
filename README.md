@@ -25,9 +25,15 @@ import {
   mxRubberband
 } from '@/assets/mxgraph/4.0.0/mxgraph'
 ```
-样例：[vue-mxgraph/src/views/Graph.js](vue-mxgraph/src/views/Graph.js)
+样例：
 
-参考：[jgraph/mxgraph/issues/175/npm install](https://github.com/jgraph/mxgraph/issues/175)
+[vue-mxgraph/src/views/Graph.js](vue-mxgraph/src/views/Graph.js)
+
+参考：
+
+[jgraph/mxgraph/issues/175/npm install](https://github.com/jgraph/mxgraph/issues/175)
+
+[Editor doesn't created when mxGraph is used as npm module](https://github.com/jgraph/mxgraph/issues/49)
 
 ## Demo
 ![demo](vue-mxgraph/src/assets/demo.png)
