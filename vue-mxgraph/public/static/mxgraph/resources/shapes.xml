@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shapes>
+	<shape name="terminator" h="60" w="98" aspect="variable" strokewidth="inherit"> 
+    <connections> 
+      <constraint x="0.5" y="0" perimeter="0" name="N"/>  
+      <constraint x="0.5" y="1" perimeter="0" name="S"/>  
+      <constraint x="0" y="0.5" perimeter="0" name="W"/>  
+      <constraint x="1" y="0.5" perimeter="0" name="E"/>  
+      <constraint x="0.11" y="0.11" perimeter="0" name="NW"/>  
+      <constraint x="0.11" y="0.89" perimeter="0" name="SW"/>  
+      <constraint x="0.89" y="0.11" perimeter="0" name="NE"/>  
+      <constraint x="0.89" y="0.89" perimeter="0" name="SE"/> 
+    </connections>  
+    <background> 
+      <path> 
+        <move x="30" y="0"/>  
+        <line x="68" y="0"/>  
+        <arc rx="30" ry="30" x-axis-rotation="0" large-arc-flag="0" sweep-flag="1" x="68" y="60"/>  
+        <line x="30" y="60"/>  
+        <arc rx="30" ry="30" x-axis-rotation="0" large-arc-flag="0" sweep-flag="1" x="30" y="0"/>  
+        <close/> 
+      </path> 
+    </background>  
+    <foreground> 
+      <fillstroke/> 
+    </foreground> 
+  </shape>
+</shapes>
