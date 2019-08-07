@@ -22,11 +22,13 @@ import {
   mxRubberband
 } from '@/assets/mxgraph/4.0.0/mxgraph'
 
+import './Shapes'
+
 import rectangleImg from '@/assets/mxgraph/4.0.0/images/rectangle.png'
 import ellipseImg from '@/assets/mxgraph/4.0.0/images/ellipse.png'
 import rhombusImg from '@/assets/mxgraph/4.0.0/images/rhombus.png'
 import triangleImg from '@/assets/mxgraph/4.0.0/images/triangle.gif'
-import cylinderImg from '@/assets/mxgraph/4.0.0/images/cylinder.gif'
+import cylinderImg from '@/assets/mxgraph/4.0.0/images/arcedge.png'
 import actorImg from '@/assets/mxgraph/4.0.0/images/actor.gif'
 
 class Graph {
@@ -281,6 +283,12 @@ class Graph {
       _this.defaultStyle.width,
       _this.defaultStyle.height,
       'shape=rhombus'
+    )
+    addVertex(
+      cylinderImg,
+      _this.defaultStyle.width,
+      _this.defaultStyle.height,
+      'shape=terminator;'
     )
     // addVertex(
     //   triangleImg,
