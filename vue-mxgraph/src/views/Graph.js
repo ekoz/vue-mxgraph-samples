@@ -17,6 +17,8 @@ import {
   mxConnectionConstraint,
   mxShape,
   mxPoint,
+  mxConstraintHandler,
+  mxEllipse,
   mxClipboard,
   mxKeyHandler,
   mxRubberband
@@ -89,6 +91,14 @@ class Graph {
     mxConstants.EDGE_SELECTION_COLOR = '#00a8ff'
     // 选中 vertex 后的边框颜色
     mxConstants.VERTEX_SELECTION_COLOR = '#00a8ff'
+    mxConstraintHandler.prototype.highlightColor =
+      mxConstants.DEFAULT_VALID_COLOR
+    mxConstraintHandler.prototype.createHighlightShape = function() {
+      var hl = new mxEllipse(null, this.highlightColor, this.highlightColor, 0)
+      hl.opacity = mxConstants.HIGHLIGHT_OPACITY
+
+      return hl
+    }
   }
   /* private*/ setComponentsStyle() {
     const graph = this.mxGraph
